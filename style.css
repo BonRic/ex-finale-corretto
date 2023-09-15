@@ -1,0 +1,317 @@
+@font-face {
+  font-family: gemcut;
+  src: url("./font/Gemcut.otf");
+}
+@font-face {
+  font-family: psg;
+  src: url("./font/Por\ Siempre\ Gótica.ttf");
+}
+.back {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+a, a:link, a:visited {
+  color: gold;
+  text-decoration: none;
+  }
+.Home {
+  font-size: 30px;
+  position:relative;
+  top: 10px;
+  padding: 15px;
+ }
+.Game {
+  font-size: 30px;
+  position:relative;
+  top: 10px;
+  padding: 15px;
+ }
+ .About {
+  font-size: 30px;
+  position:relative;
+  top: 10px;
+  padding: 15px;
+ }
+ .Buy {
+  font-size: 30px;
+  position:relative;
+  top: 10px;
+  padding: 15px;
+ }
+ #topmenu
+ {
+  padding: 10px 0px 10px 10px;
+ }
+ a.topmenu, a.topmenu:hover, a.curmenu, a.curmenu:hover
+{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 3px 3px 3px;
+  margin: 0px 10px 0px 0px;
+  box-sizing: content-box;
+}
+div{
+  position: absolute;
+  left:430px;
+  top:10px;
+  box-sizing: content-box;
+  margin:0px;
+}
+
+li{
+  max-width: 120px;
+  box-sizing: content-box;
+  border-style:solid;
+  border-color: gold;
+  padding: 35px;
+  color: gold;
+  list-style-type:none;
+  font-size: 30px;
+  text-decoration:none;
+  text-align: center;
+}
+h1 {
+  font-size: 300px;
+  color: gold;
+  text-align: center;
+  font-family: gemcut;
+  margin-top: 80px;
+}
+h2 {
+  font-size: 65px;
+  color: gold;
+  font-family:psg;
+  position:absolute;
+  top:480px;
+  left:200px;
+  letter-spacing: 4px;
+}
+.insta {
+  position:relative;
+  left:50ch;
+  top:390px;
+}
+.face {
+  position:relative;
+  left:55ch;
+  top:390px;
+}
+.tiktok {
+  position:relative;
+  left:60ch;
+  top:390px;
+}
+.youtube {
+  position:relative;
+  left:65ch;
+  top:405px;
+}
+.textcontacts {
+  font-size: 50px;
+  color: gold;
+  text-align: center;
+  font-family:psg;
+  margin-top:-30px;
+}
+.infoFF {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family:psg;
+  margin-top:50px;
+}
+.tesoro {
+  width: 350px;
+  position:relative;
+  left:60ch;
+  top:110px;
+}
+.aiutaci {
+  font-size: 40px;
+  color: gold;
+  text-align: center;
+  font-family:psg;
+  margin-top:110px;
+  letter-spacing: 2px;
+}
+.FF {
+  font-size: 80px;
+  color: gold;
+  text-align: center;
+  font-family:psg;
+  margin-top:100px;
+}
+.abouttext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:-40px;
+  margin-left:10ch;
+  max-width: 700px;
+  letter-spacing: 1px;
+}
+.nota{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:10px;
+  margin-left:10ch;
+  max-width: 700px;
+  letter-spacing: 2px;
+}
+.drago {
+  width: 350px;
+  position:absolute;
+  left:110ch;
+  top:200px;
+}
+.gametext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:50px;
+  margin-left:10ch;
+  max-width: 1100px;
+  letter-spacing: 1px;
+}
+.catchtitle{
+  font-size: 45px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:10px;
+  margin-left:16ch;
+  max-width: 700px;
+  margin-bottom: -5px;
+  letter-spacing: 3px;
+}
+.catchtext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:10px;
+  margin-left:10ch;
+  max-width: 500px;
+  letter-spacing: 2px;
+}
+.buisnesstitle{
+  font-size: 45px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:10px;
+  margin-left:14.5ch;
+  max-width: 700px;
+  margin-bottom: -5px;
+  letter-spacing: 3px;
+}
+.buisnesstext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:10px;
+  margin-left:10ch;
+  max-width: 500px;
+  letter-spacing: 2px;
+}
+.companiestitle{
+  font-size: 45px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:-433px;
+  margin-left:45ch;
+  max-width: 700px;
+  margin-bottom: -5px;
+  letter-spacing: 3px;
+}
+.companiestext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:13px;
+  margin-left:65ch;
+  max-width: 500px;
+  letter-spacing: 2px;
+}
+.brokertitle{
+  font-size: 45px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:0px;
+  margin-left:46.5ch;
+  max-width: 700px;
+  margin-bottom: -5px;
+  letter-spacing: 3px;
+}
+.brokertext{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:13px;
+  margin-left:65ch;
+  max-width: 500px;
+  letter-spacing: 2px;
+}
+.rulestext{
+  font-size: 35px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:150px;
+  margin-left:10ch;
+  max-width: 1050px;
+  letter-spacing: 3px;
+}
+.rulestext2{
+  font-size: 25px;
+  color: gold;
+  text-align:justify;
+  font-family:psg;
+  margin-top:30px;
+  margin-left:46ch;
+  max-width: 700px;
+  letter-spacing: 2px;
+}
+.diamond {
+  width: 400px;
+  position:absolute;
+  left:10ch;
+  top:300px;
+}
+.diamantozzo {
+  max-width: 300px;
+  position:absolute;
+  left:500px;
+  top: 350px;
+}
+h3 {
+  position:absolute;
+  font-size: 80px;
+  color: gold;
+  font-family: gemcut;
+  margin-top: 60px;
+}
+.testatasx {
+  top:-50px;
+  left:50px;
+}
+.testatadx {
+  top:-50px;
+  left:1080px;
+}
